@@ -1,5 +1,26 @@
 # Changelog
 
+## [3.11.0](https://github.com/sidorares/node-mysql2/compare/v3.10.3...v3.11.0) (2024-07-27)
+
+
+### Features
+
+* fully support VECTOR type results ([9576742](https://github.com/sidorares/node-mysql2/commit/9576742f56f234ac50bfd099bc84c8f593971e74))
+
+## [3.10.3](https://github.com/sidorares/node-mysql2/compare/v3.10.2...v3.10.3) (2024-07-15)
+
+
+### Bug Fixes
+
+* handshake SSL error with AWS RDS ([#2857](https://github.com/sidorares/node-mysql2/issues/2857)) ([de071bb](https://github.com/sidorares/node-mysql2/commit/de071bb1d7738693793ff3ea24d5f933f6fa4792))
+
+## [3.10.2](https://github.com/sidorares/node-mysql2/compare/v3.10.1...v3.10.2) (2024-07-01)
+
+
+### Bug Fixes
+
+* **typeCast:** ensure the same behavior for `field.string()` with `query` and `execute` ([#2820](https://github.com/sidorares/node-mysql2/issues/2820)) ([27e38ea](https://github.com/sidorares/node-mysql2/commit/27e38ea3f084f445a8e5a4909341b5e740bdf474))
+
 ## [3.10.1](https://github.com/sidorares/node-mysql2/compare/v3.10.0...v3.10.1) (2024-06-13)
 
 
